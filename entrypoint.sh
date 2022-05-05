@@ -36,7 +36,7 @@ clean() {
 zip_dir() {
 	local dir=$1
 	pushd $dir >/dev/null
-		zip \
+		zip -y \
 			$OUTPUT_FILE \
 			$(find .) \
 			$(exclude_args)
@@ -44,7 +44,7 @@ zip_dir() {
 }
 
 zip_files() {
-	zip \
+	zip -y \
 		$OUTPUT_FILE \
 		$@ \
 		$(exclude_args)
