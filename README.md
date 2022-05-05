@@ -17,6 +17,7 @@ This action needs a file named `info.plist` with the metadata of your workflow i
 ### Outputs
 
 * `workflow_file`: The name of the created .alfredworkflow file
+* store symbolic links as the link instead of the referenced file
 
 ### Example workflow
 
