@@ -1,4 +1,5 @@
-# Build an Alfred workflow
+# Build an Alfred workflow2
+> forked by mperezi/build-alfred-workflow
 Assemble the files within a source directory into an [Alfred workflow](https://www.alfredapp.com/workflows/) single package ready to be distributed.
 
 The name of the output file is generated from the workflow name and version contained in the workflow's metadata.
